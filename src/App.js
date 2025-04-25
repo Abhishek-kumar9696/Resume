@@ -1,12 +1,11 @@
-
-
-import { useState } from 'react';
-import './App.css';
-import Namaste from './components/Namaste.js';
-import Profile from './components/Profile';
-import AboutMe from './components/AboutMe.js';
-import Skills from './components/Skills.js';
-import Projects from './components/Projects.js';
+import { useState } from "react";
+import "./App.css";
+import Namaste from "./components/Namaste.js";
+import Profile from "./components/Profile";
+import AboutMe from "./components/AboutMe.js";
+import Skills from "./components/Skills.js";
+import Projects from "./components/Projects.js";
+import Resume from "./components/Resume.js";
 
 function App() {
   const [showProfile, setShowProfile] = useState(false);
@@ -15,10 +14,24 @@ function App() {
     <div className="bg-black text-white ">
       {/* Navigation Links */}
       <div className="flex justify-center space-x-8 py-4 fixed top-0 left-0 right-0 bg-black bg-opacity-70 z-10 ml-80 mr-80 border-2 rounded-full border-slate-700 ">
-        <a href="#profile" className="text-lg hover:text-gray-400">Profile</a>
-        <a href="#about-me" className="text-lg hover:text-gray-400">About Me</a>
-        <a href="#skills" className="text-lg hover:text-gray-400">Skills</a>
-        <a href="#projects" className="text-lg hover:text-gray-400">Projects</a>
+        <a href="#profile" className="text-lg hover:text-gray-400">
+          Profile
+        </a>
+        <a href="#about-me" className="text-lg hover:text-gray-400">
+          About Me
+        </a>
+        <a href="#skills" className="text-lg hover:text-gray-400">
+          Skills
+        </a>
+        <a href="#projects" className="text-lg hover:text-gray-400">
+          Projects
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1rhl6X1KE1z6h14rTbT1pgIUUKcLlU4kz/view?usp=sharing"
+          className="text-lg hover:text-gray-400"
+        >
+          Resume
+        </a>
       </div>
 
       {/* Display Namaste initially */}
@@ -45,4 +58,3 @@ function App() {
 }
 
 export default App;
-
