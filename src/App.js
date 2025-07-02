@@ -27,7 +27,8 @@ function App() {
           Projects
         </a>
         <a
-          href="https://drive.google.com/file/d/1rhl6X1KE1z6h14rTbT1pgIUUKcLlU4kz/view?usp=sharing"
+          // href="https://drive.google.com/file/d/1rhl6X1KE1z6h14rTbT1pgIUUKcLlU4kz/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ptap0M8hNPL47oJQaympEEl8VGcFZOOl/view?usp=sharing"
           className="text-lg hover:text-gray-400"
         >
           Resume
